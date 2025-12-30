@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Phoenix.Core</AssemblyName>
+    <RootNamespace>Phoenix.Core</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>Dutra-David</Authors>
+    <Description>Core agent engine for Project Phoenix Desktop</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Generative.AI" Version="0.17.0" />
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="8.0.0" />
+    <PackageReference Include="System.Speech" Version="1.0.0" />
+    <PackageReference Include="UIAutomationClient" Version="10.0.0" />
+  </ItemGroup>
+
+</Project>
